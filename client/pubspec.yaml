@@ -1,0 +1,57 @@
+name: own_audio_player
+description: A self-hosted music streaming application
+
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.1
+
+  # HTTP client
+  dio: ^5.4.0
+
+  # Audio playback
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  just_audio_background: ^0.0.1-beta.11
+
+  # UI
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # Utilities
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  collection: ^1.18.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment to add assets
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Uncomment to add custom fonts
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
